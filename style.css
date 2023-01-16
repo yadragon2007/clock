@@ -47,7 +47,6 @@
   top: 50%;
   transform: translate(-50%, -50%) rotate(0deg);
   z-index: 10;
-  transition: .5s;
 }
 
 .m::before {
