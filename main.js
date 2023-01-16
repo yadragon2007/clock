@@ -23,6 +23,6 @@ console.log(i);
 
 
 
-  setTimeout(run,0)
+  setTimeout(run,1000)
 }
 run();
