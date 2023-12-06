@@ -6,7 +6,7 @@
 .clock {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   width: 500px;
   height: 500px;
@@ -33,18 +33,19 @@
   background-color: black;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   z-index: 50;
 }
-.centre::before{
+
+.centre::before {
   content: "";
   position: absolute;
   width: 20px;
   height: 20px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: antiquewhite;
   border-radius: 50%;
 }
@@ -55,7 +56,7 @@
   background-color: coral;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%) rotate(0deg);
   z-index: 10;
   transition: .5s;
@@ -136,27 +137,69 @@
   left: 50%;
   top: 485px;
 }
+
 .num>div:nth-child(7) {
-  left:  130px;
+  left: 130px;
   top: 455px;
 }
+
 .num>div:nth-child(8) {
-  left:  45px;
+  left: 45px;
   top: 370px;
 }
+
 .num>div:nth-child(9) {
   left: 10px;
   top: 250px;
 }
+
 .num>div:nth-child(10) {
-  left:  45px;
+  left: 45px;
   top: 135px;
 }
+
 .num>div:nth-child(11) {
-  left:  130px;
+  left: 130px;
   top: 50px;
 }
+
 .num>div:nth-child(12) {
   left: 50%;
   top: 15px;
+}
+
+p {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: cursive;
+  color: rgb(194, 194, 194);
+  border: 5px solid black;
+  background-color: rgb(87, 87, 87);
+  box-shadow:
+    2.2px 0px 7.6px rgba(0, 0, 0, 0.019),
+    3.2px 0px 14.5px rgba(0, 0, 0, 0.021),
+    3.9px 0px 20.5px rgba(0, 0, 0, 0.022),
+    4.4px 0px 25.7px rgba(0, 0, 0, 0.023),
+    5px 0px 30.1px rgba(0, 0, 0, 0.024),
+    5.6px 0px 34.1px rgba(0, 0, 0, 0.025),
+    6.3px 0px 38.1px rgba(0, 0, 0, 0.026),
+    7.2px 0px 43.1px rgba(0, 0, 0, 0.027),
+    8.6px 0px 52.3px rgba(0, 0, 0, 0.029),
+    12px 0px 80px rgba(0, 0, 0, 0.03);
+    padding: 2.5px 5px;
+}
+span{
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: cursive;
 }
